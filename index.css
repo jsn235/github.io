@@ -45,8 +45,18 @@ h2 {
 }
 #content-wrapper {margin: 0 auto;
     width: 694px;}
-main {
-	color: #333;
+main {<main>
+  <div id="inner">
+    <h1>オフィスチェアとゲーミングチェアの違い</h1>
+    <p class="description">快適な椅子選びのために知っておきたいこと</p>
+
+    <!-- ここに画像を挿入 -->
+    <img src="ブログ写真1.png" alt="オフィスチェアとゲーミングチェアの比較画像">
+
+    <!-- 以下、本文が続く -->
+    <p>オフィスチェアとゲーミングチェアは一見似ていますが...</p>
+  </div>
+</main>
 }
 #inner {
 	padding: 20px 0 0 0;
